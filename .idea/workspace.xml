@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2347edae-f23b-41e4-89d6-d9f0da4e4f22" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PlayDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PublicHolidays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PlayDateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PlayTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PlayTimeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>

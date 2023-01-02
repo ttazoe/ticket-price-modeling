@@ -11,6 +11,7 @@ class PriceTest {
         try {
             new Price(-100);
         } catch (Exception e) {
+
         }
     }
 

@@ -5,16 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2347edae-f23b-41e4-89d6-d9f0da4e4f22" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/fee/AdultFee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/fee/ChildFee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/fee/Fee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/fee/Fees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/fee/Reservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/fee/SeniorFee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/fee/Yen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/fee/FeesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/fee/YenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sample2/domain/price/Price.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sample2/usecase/PriceCalculateUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/sample1/fee/FeesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/sample1/fee/ReservationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/sample2/domain/price/PriceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sample1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PlayDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sample1/PlayDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PlayTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sample1/PlayTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PublicHolidays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sample1/PublicHolidays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/fee/AdultFee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sample1/fee/AdultFee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/fee/ChildFee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sample1/fee/ChildFee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/fee/Fee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sample1/fee/Fee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/fee/Fees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sample1/fee/Fees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/fee/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sample1/fee/Reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/fee/SeniorFee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sample1/fee/SeniorFee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/fee/Yen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sample1/fee/Yen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PlayDateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/sample1/PlayDateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PlayTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/sample1/PlayTimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/fee/FeesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/fee/YenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/sample1/fee/YenTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +53,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2JiOzrxFTcOU0oFcQWz9jWk4VeR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,6 +75,8 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.sample2.domain.price" />
+      <recent name="org.example.sample2.domain.audience" />
       <recent name="org.example.fee" />
       <recent name="org.example" />
     </key>

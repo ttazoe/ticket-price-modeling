@@ -1,8 +1,6 @@
-package org.example.fee;
+package org.example.sample1.fee;
 
 import org.junit.jupiter.api.Test;
-
-import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -21,7 +19,6 @@ class YenTest {
         }
 
     }
-
 
     /**
      * Case 1 : 10 + 20 = 30

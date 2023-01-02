@@ -1,4 +1,4 @@
-package org.example.fee;
+package org.example.sample1.fee;
 
 public class AdultFee implements Fee{
     @Override

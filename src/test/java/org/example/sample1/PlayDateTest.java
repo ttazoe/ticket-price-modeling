@@ -1,11 +1,9 @@
-package org.example;
+package org.example.sample1;
 
 import org.junit.jupiter.api.Test;
 
 
-import java.sql.Timestamp;
 import java.time.LocalDateTime;
-import java.time.chrono.ChronoLocalDateTime;
 
 import static org.junit.jupiter.api.Assertions.*;
 

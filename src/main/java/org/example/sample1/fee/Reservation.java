@@ -1,6 +1,4 @@
-package org.example.fee;
-
-import java.util.List;
+package org.example.sample1.fee;
 
 public class Reservation {
     final Fees fees;

@@ -1,9 +1,7 @@
-package org.example;
+package org.example.sample1;
 
 import java.time.DayOfWeek;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.util.HashMap;
 
 public class PlayDate {
     private final LocalDateTime date;

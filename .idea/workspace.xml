@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2347edae-f23b-41e4-89d6-d9f0da4e4f22" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sample2/domain/audience/Age.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sample2/domain/audience/Audience.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sample2/domain/audience/Sex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sample2/domain/audience/StudentCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sample2/domain/screen/PlayDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sample2/domain/screen/PlayTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sample2/domain/screen/Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sample2/domain/screen/ScreenDateTimeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sample2/usecase/DateTimeTariffCalculateUseCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/sample2/domain/price/PriceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/sample2/domain/price/PriceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sample2/domain/audience/Age.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sample2/domain/audience/Age.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sample2/domain/audience/Audience.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sample2/domain/audience/Audience.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sample2/domain/audience/Sex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sample2/domain/audience/Sex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sample2/domain/audience/StudentCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sample2/domain/audience/StudentCategory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,17 +50,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/Takashi Tazoe/IdeaProjects/ticket-price-modeling/src/main/java/org/example/sample2/domain/screen",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Takashi Tazoe\IdeaProjects\ticket-price-modeling\src\main\java\org\example\sample2\domain\screen" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>

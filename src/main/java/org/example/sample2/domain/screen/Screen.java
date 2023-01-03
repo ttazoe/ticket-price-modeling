@@ -19,6 +19,6 @@ public class Screen {
             if(playTime.isLateShow()) return ScreenDateTimeType.WEEKDAY_LATE;
             if(!playTime.isLateShow()) return ScreenDateTimeType.WEEKDAY_REGULAR;
         }
-        return ScreenDateTimeType.UNKNOWN;
+        throw new IllegalArgumentException("Unknown Screen Date Time");
     }
 }

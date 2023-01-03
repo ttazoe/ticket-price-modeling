@@ -1,5 +1,7 @@
 package org.example.sample2.domain.audience;
 
+import org.example.sample2.domain.price.PriceCategory;
+
 public class Audience {
     final Age age;
     final Sex sex;
@@ -19,37 +21,36 @@ public class Audience {
         this.isHandicapped = isHandicapped;
     }
 
-    public AudienceCategory getCategory() {
+    public PriceCategory getCategory() {
         // Handicapped 判定
         if (isHandicapped) {
             if (studentCategory == StudentCategory.ELEMENTARYSCHOOL ||
                     studentCategory == StudentCategory.JUNIORHIGHSCHOOL)
-                return AudienceCategory.HANDICAPPED_UNDER_HIGHSHCHOOL;
+                return PriceCategory.HANDICAPPED_UNDER_HIGHSHCHOOL;
             if (studentCategory == StudentCategory.NONE ||
                     studentCategory == StudentCategory.UNIVERSITY)
-                return AudienceCategory.HANDICAPPED_OVER_HIGHSCHOOL;
+                return PriceCategory.HANDICAPPED_OVER_HIGHSCHOOL;
         }
 
         if (isCinemaCitizen) {
-            if (age.compareTo(new Age(60)) >= 0) return AudienceCategory.CINEMACITIZEN_OVER60;
-            if (age.compareTo(new Age(60)) < 0) return AudienceCategory.CINEMACITIZEN_REGULAR;
+            if (age.compareTo(new Age(60)) >= 0) return PriceCategory.CINEMACITIZEN_OVER60;
+            if (age.compareTo(new Age(60)) < 0) return PriceCategory.CINEMACITIZEN_REGULAR;
         }
 
         switch (studentCategory) {
             case ELEMENTARYSCHOOL:
-                return AudienceCategory.ELEMENTARYSCHOOL_STUDENT;
+                return PriceCategory.ELEMENTARYSCHOOL_STUDENT;
             case JUNIORHIGHSCHOOL:
-                return AudienceCategory.JUNIORHIGHSCHOOL_STUDENT;
+                return PriceCategory.JUNIORHIGHSCHOOL_STUDENT;
             case HIGHSCHOOL:
-                return AudienceCategory.HIGHSCHOOL_STUDENT;
+                return PriceCategory.HIGHSCHOOL_STUDENT;
             case UNIVERSITY:
-                return AudienceCategory.UNIVERSITY_STUDENT;
+                return PriceCategory.UNIVERSITY_STUDENT;
         }
 
         if (age.compareTo(new Age(70)) >= 0) {
-            return AudienceCategory.SENIOR;
+            return PriceCategory.SENIOR;
         }
-        return AudienceCategory.REGULAR;
+        return PriceCategory.REGULAR;
     }
 }
-

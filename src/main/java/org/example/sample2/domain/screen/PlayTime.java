@@ -2,10 +2,10 @@ package org.example.sample2.domain.screen;
 
 import java.time.LocalDateTime;
 
-class PlayTime {
+public class PlayTime {
     final LocalDateTime time;
 
-    PlayTime(LocalDateTime time) {
+    public PlayTime(LocalDateTime time) {
         this.time = time;
     }
 

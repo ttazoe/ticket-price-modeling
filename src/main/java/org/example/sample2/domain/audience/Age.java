@@ -3,7 +3,7 @@ package org.example.sample2.domain.audience;
 public class Age implements Comparable{
     final int value;
 
-    Age(final int value){
+    public Age(final int value){
         this.value = value;
     }
 

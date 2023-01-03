@@ -35,7 +35,7 @@ public enum PriceCategory {
         this.movieday = movieday;
     }
 
-    Price calcPrice(ScreenDateTimeType screenDateTimeType) {
+    public Price calcPrice(ScreenDateTimeType screenDateTimeType) {
         switch (screenDateTimeType) {
             case WEEKDAY_REGULAR:
                 return new Price(this.weekdayRegular);

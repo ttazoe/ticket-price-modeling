@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 public class PlayDate {
     final LocalDateTime date;
 
-    PlayDate(LocalDateTime date) {
+    public PlayDate(LocalDateTime date) {
         this.date = date;
     }
 

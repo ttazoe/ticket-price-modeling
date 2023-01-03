@@ -3,7 +3,7 @@ package org.example.sample2.domain.price;
 public class Price {
     private final int yen;
 
-    Price(final int yen) {
+    public Price(final int yen) {
         if (yen < 0) throw new IllegalArgumentException("Price should be more than 0");
         this.yen = yen;
     }
@@ -21,4 +21,10 @@ public class Price {
         }
         return false;
     }
+
+    @Override
+    public String toString() {
+        return String.valueOf(yen);
+    }
+
 }
